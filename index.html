@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1320">
+    <title>main_page</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/main_page.css">
+    <script src="js/jquery-1.12.4.min.js"></script>
+		<script src="js/script.js"></script>
+        
+</head>
+<body>
+
+    <!--top_util-->
+    <div class="top_util">
+        <ul>
+            <li><a href="#">LOG / JOIN</a></li>
+            <li><a href="#"><img src="images/find.png" alt="돋보기"></a></li>
+            <li><a href="#"><img src="images/shop.png" alt="장바구니"></a></li>
+            <li><a href="#"><img src="images/my_page.png" alt="마이페이지"></a></li>
+        </ul>
+    </div>
+
+    <!--logo-->
+    <h1 class="top_logo">
+        <a href="#" class="top_logo"><img src="images/logo.png" alt="로고"></a>
+    </h1>
+    
+    <!--menu-->
+    <div id="nav">
+        <div class="nav_inner">
+            <ul>
+                <li><a href="#">메이크업</a></li>
+                <li><a href="#">이벤트</a></li>
+                <li><a href="#">NEED스토리</a></li> 
+                <li><a href="#">멤버십</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--sub-->
+    <div class="sub">
+        <div class="sub_inner">
+            <ul class="sub_makeup">
+                <li><a href="#">LIP</a></li>
+                <li><a href="#">EYE</a></li>
+                <li><a href="#">BASE</a></li>
+                <li><a href="#">SKIN CARE</a></li>
+                <li><a href="#">PERFUME</a></li>
+            </ul>
+            <ul class="sub_event">
+                <li><a href="#">신규가입</a></li>
+                <li><a href="#">봄 세일</a></li>
+                <li><a href="#">SNS 리뷰</a></li>
+                <li><a href="#">카카오톡 채널추가</a></li>
+            </ul>
+            <div class="sub_img"><img src="images/sub_img.jpg" alt="서브이미지"></div>
+        </div>
+    </div>
+
+    <!--베너-->
+     <!-- Swiper -->
+     <div class="swiper mySwiper" id="section1">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="images/banner_lip.jpg" alt="립스틱배너"></div>
+          <div class="swiper-slide"><img src="images/banner_ampoule.jpg" alt="앰플배너"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+  
+      <!-- Swiper JS -->
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+
+
+
+
+
+    <!--best_item-->
+        <p class="title" id="section2">BEST ITEM</p>
+        <div class="best_item">
+        <div class="best_inner">
+            <ul>
+            <li>
+                <img src="images/best_lipbalm.jpg" alt="립밤">
+                <div>
+                    <h3>민감한 입술 집중케어</h3>
+                    <p>
+                        풍부한 영양은 빠르게 스며들고<br>
+                        번들거림 없이 맑은 컬러만<br>
+                        남겨 사용할수록 건강하게<br>
+                        빛나는 입술을 만들어 줍니다.
+                     </p>
+                </div>
+            </li>
+            <li>
+                <img src="images/best_cushion.jpg" alt="쿠션">
+                <div>
+                    <h3>무너짐 없는 48시간<br>글로우 픽싱</h3>
+                    <p>
+                        NEED만의 강력한 픽싱<br>
+                        폴리머가 적용되어 48시간 동안<br>
+                        흐트러짐 없이 매끈한 윤광<br>
+                        피부를 유지시켜줍니다.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <img src="images/best_shading.jpg" alt="쉐이딩">
+                <div> 
+                    <h3>쉐딩 마스터</h3>
+                    <p>
+                         진짜 내 피부 그림자같은<br>
+                        자연스러운 음영감을 줍니다. 
+                    </p>
+                </div>
+            </li>
+            </ul>
+        </div>
+        </div>
+
+    </div>
+
+    <!--tap-->
+    <div class="tap" id="section3">
+        <div class="tap_inner">
+            <ul>
+                <li><a href="#"><img src="images/main_tap_lip.png" alt=""></a></li>
+                <li><a href="#"><img src="images/main_tap_eyeliner.png" alt=""></a></li><li><a href="#"><img src="images/main_tap_cream.png" alt=""></a></li><li><a href="#"><img src="images/main_tap_foundation.png" alt=""></a></li><li><a href="#"><img src="images/main_tap_perfume.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--store_img-->
+    <div class="store"></div>
+
+    <!--lounge-->
+    <p class="title">LOUNGE</p>
+    <div class="lounge" id="section4">
+
+        <div class="lounge_inner">
+
+            <div class="event">
+                <p class="event_img">
+                    <img src="images/event_new.jpg" alt="신규가입" class="img1">
+                    <img src="images/event_spring.jpg" alt="봄 세일" class="img2">
+                    <img src="images/event_ review.jpg" alt="리뷰" class="img3">
+                    <img src="images/event_kakao.jpg" alt="카카오" class="img4">
+                </p>
+                <p id="event">[ EVENT ]</p>
+                <div class="button">
+                    <button id="button1"><a href="index.html#section4"># 신규가입 이벤트</a></button>
+                    <button id="button2"><a href="index.html#section4"># 봄 세일 이벤트</a></button>
+                    <button id="button3"><a href="index.html#section4"># SNS 리뷰 이벤트</a></button>
+                    <button id="button4"><a href="index.html#section4"># 카카오톡 채널추가 이벤트</a></button>
+                </div>
+            </div>
+
+            <div class="new_arrival">
+                <a href="#"><img src="images/new_arrival.jpg" alt="신제품"></a>
+                <p>[ NEW ARRIVAL ]</p>
+            </div>
+
+        </div>
+
+    </div>
+    <script>
+        $(function(){
+                $('.img2').hide();
+                $('.img3').hide();
+                $('.img4').hide();
+                $("#button1").click(function(){
+                        $(".img1").fadeIn();
+                        $(".img2").fadeOut();
+                        $(".img3").fadeOut();
+                        $(".img4").fadeOut();
+                });	
+                $("#button2").click(function(){
+                        $(".img1").fadeOut();
+                        $(".img2").fadeIn();
+                        $(".img3").fadeOut();
+                        $(".img4").fadeOut();
+                });
+                $("#button3").click(function(){
+                        $(".img1").fadeOut();
+                        $(".img2").fadeOut();
+                        $(".img3").fadeIn();
+                        $(".img4").fadeOut();
+                });
+                $("#button4").click(function(){
+                        $(".img1").fadeOut();
+                        $(".img2").fadeOut();
+                        $(".img3").fadeOut();
+                        $(".img4").fadeIn();
+                });
+        });
+    </script>
+    <!--instagram_banner-->
+    <p class="title"># NEED [SNS]</p>
+    <p class="title2">I N S T A G R A M</p>
+    <div class="instagram_banner">
+        <div class="banner_inner">
+            <h1><img src="images/insta_banner_logo.png" alt="로고"></h1>
+            <p class="pink">@need_beauty.kr</p>
+            <p>다양한 신제품과 이벤트를<br>
+                공식 인스타 그램에서 빠르게 만나 보세요
+            </p>
+            <p>지금바로 인스타그램 <b class="pink">"팔로우"</b> 하세요</p>
+        </div>
+    </div>
+
+    <!--membership-->
+    <div class="membership">
+        <div class="membership_inner">
+            <div class="membership_left">
+                <p><b class="bold">NEED</b> 회원이 이세요?</p>
+                <p>로그인을 통해 나만의 혜택을 확인해보세요</p>
+                <a href="#" class="log">로그인</a>
+            </div>
+            <div class="membership_center">
+                <p><b>NEED BEAUTY</b> 의</p>
+                <p><b class="gold">특별한 혜택</b>을 누리세요</p>
+            </div>
+            <div class="membership_right">
+                <p><b class="bold">NEED</b> 회원이 아니세요?</p>
+                <p>가입을 통해 나만의 혜택을 즐기세요 </p>
+                <a href="#" class="join">회원가입</a>
+            </div>
+        </div>
+    </div>
+
+     <!--footer-->
+     <div class="footer">
+        <div class="footer_inner">
+            <h1><img src="images/logo_footer.png" alt="로고"></h1>
+            <ul class="data">
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#" class="margin">사이트맵</a></li>
+                <li><a href="#">고객센터</a></li>
+            </ul><br>
+            <ul class="id">
+                <li>대표 : 김민지</li>
+                <li class="margin">이메일 : alswl990356@naver.com</li>
+                <li>연락처 : 010-1234-5678</li>
+            </ul><br>
+            <ul class="icon">
+                <li><a href="#"><img src="images/icon_facebook.png" alt="페이스북"></a></li>
+                <li><a href="#"><img src="images/icon_instagram.png" alt="인스타그램"></a></li>
+                <li><a href="#"><img src="images/icon_youtube.png" alt="유튜브"></a></li>
+                <li><a href="#"><img src="images/icon_kakao.png" alt="카카오톡"></a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

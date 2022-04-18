@@ -1,0 +1,464 @@
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 200; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream2.woff2) format('woff2'),
+         url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream2.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 300; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream3.woff2) format('woff2'),
+         url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream3.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 400; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff2) format('woff2'),
+         url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 500; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream5.woff2) format('woff2'),
+         url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream5.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 600; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream6.woff2) format('woff2'),
+         url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream6.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 700; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream7.woff2) format('woff2'),
+         url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream7.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SDSamliphopangche_Basic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Basic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GowunBatang-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*{margin: 0; padding: 0;}
+a{text-decoration: none; color: #333;}
+ul{list-style: none;}
+body{
+    min-width: 1320px;
+    background-position: center;
+    font-size: 14px;
+    color: #333;
+    font-family: 'SCoreDream';
+}
+.title{
+    text-align: center;
+    margin-top: 120px;
+    font-size: 26px;
+    font-weight: bold;
+}
+.title2{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*header*/
+.top_logo{
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 180px;
+    height: 55px;
+}
+.top_util{
+    width: 1320px;
+    height: 23px;
+    margin: 10px auto;
+}
+.top_util ul{
+    float: right;
+}
+.top_util li{
+    float: left;
+    padding: 0 10px;
+}
+.top_util li a:hover{color: #ccc;}
+.top_util li:nth-child(1){padding-top: 2px;}
+
+/*메뉴*/
+#nav{
+    height: 37px;
+    margin-top: 30px;
+}
+.nav_inner{
+    width: 1080px;
+    height: 37px;
+    margin: auto;
+}
+.nav_inner ul li{
+    float: left;
+    font-size: 17px;
+    margin: 0 77px;
+}
+.nav_inner ul li a:hover{
+    border-bottom: solid 2px #333;
+}
+.nav_inner ul li a{
+    text-align: center;
+    display: block;
+    padding: 5px 0;
+    width: 115px;
+}
+
+/*sub*/
+.sub{
+    position: absolute;
+    top: 170px ;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+}
+.sub_inner{
+    width: 1080px;
+    margin: auto;
+    height: 220px;
+    display: block;
+}
+.sub_inner ul{
+    width: 200px;
+    font-size: 17px;
+    text-align: center;
+}
+.sub_inner ul li{
+    padding: 10px 0;
+}
+.sub_inner ul li a{
+    color: #a5a5a5;
+    display: block;
+}
+.sub_inner ul li a:hover{
+    color: #333;
+}
+.sub_img{
+    float: right;
+    display: block;
+    margin-top: 5px;
+}
+.sub_makeup{
+    float: left;
+    margin-right: 69px;
+    margin-left: 35px;
+}
+.sub_event{
+    float: left;
+}
+.nav li:hover .sub{
+    display: block;
+}
+
+/*베너*/
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+/*best_item*/
+.best_item{
+    margin-top: 64px;
+    height: 200px;
+}
+.best_inner{
+    width: 1320px;
+    margin: 0 auto;
+}
+.best_inner li{
+    float: left;
+    width: 418px;
+    border: #ccc 1px solid;
+}
+.best_inner img{
+    float: left;
+    margin-right: 17px;
+}
+.best_inner div{
+    float: left;
+}
+.best_inner div h3{
+    margin-bottom: 20px;
+}
+.best_inner li:nth-child(2){
+    margin: 0 21px;
+}
+.best_inner li:nth-child(1) h3{
+    margin-top: 68px;
+}
+.best_inner li:nth-child(2) h3{
+    margin-top: 46px;
+}
+.best_inner li:nth-child(3) h3{
+    margin-top: 106px;
+}
+
+
+/*tap*/
+.tap{
+    background-color: #ececec;
+    height: 274px;
+    margin-top: 80px;
+}
+.tap_inner li{
+    float: left;
+    margin: 74px 0;
+
+}
+.tap_inner{
+    width: 802px;
+    margin: 0 auto;
+}
+.tap_inner li:nth-child(1){
+    margin-right: 43px;
+}
+.tap_inner li:nth-child(2){
+    margin-right: 43px;
+}
+.tap_inner li:nth-child(3){
+    margin-right: 43px;
+}
+.tap_inner li:nth-child(4){
+    margin-right: 43px;
+}
+.tap_inner li a:hover{
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+/*store*/
+.store{
+    width: 100%;
+    height: 375px;
+    background: url(../images/stor_img.jpg) no-repeat center top fixed;
+}
+
+/*lounge*/
+
+.lounge{
+    height: 315px;
+    background: url(../images/LOUNGE.png) no-repeat top center;
+    margin-top: 140px;
+    padding-top: 35px;
+}
+.lounge_inner{
+    width: 1250px;
+    margin: auto;
+}
+.event{
+    float: left;
+    
+}
+.event_img{
+    position: relative;
+    width: 572px;
+    height: 280px;
+}
+.event p img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#event{
+    float: left;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.button{
+    float: right;
+    margin-top: 10px;
+}
+button{
+    background-color: #fff;
+    border: none;
+}
+button:hover{
+    text-decoration: underline;
+}
+.new_arrival{
+    float: right;
+}
+.new_arrival p{
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*insatgram_banner*/
+.instagram_banner{
+    background: url(../images/banner_instagram.jpg) no-repeat center #f2f2f2;
+    width: 100%;
+    height: 425px;
+    margin-top: 57px;
+}
+.banner_inner p{
+    text-align: left;
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: 'SDSamliphopangche_Basic';
+    line-height: 37px;
+}
+.banner_inner{
+    padding-top: 67px;
+    width: 940px;
+    margin: auto;
+}
+.pink{
+    color: #d34462;
+    font-weight: normal;
+}
+
+/*membership*/
+.membership{
+    height: 251px;
+    background: url(../images/bg_membership.jpg) no-repeat center;
+    position: relative;
+}
+.membership_inner{
+    width: 1040px;
+    margin: auto;
+}    
+.membership_left{
+    float: left;
+    margin-top: 54px;
+}
+.membership_left p:nth-child(1){
+    font-size: 18px;
+}
+.membership_center{
+    float: left;
+    font-size: 23px;
+    margin: 82px 144px 0;
+}
+.membership_center b{
+    font-size: 31px;
+    font-weight: normal;
+}
+.membership_right{
+    float: left;
+    margin-top: 54px;
+}
+.bold{
+    font-size: 36px;
+    font-family: 'GowunBatang-Regular';
+    font-weight: normal;
+}
+.gold{
+    color: #ccb792;
+    font-size: 25px;
+}
+.log{
+    float: right;
+    margin-top:  35px;
+    padding: 7px 25px;
+    border: #4c4c4c solid 1px;
+    font-size: 13px;
+    border-radius: 10px;
+}
+.log a{
+    display: block;
+}
+.join{
+    float: left;
+    margin-top: 35px;
+    padding: 8px 20px;
+    font-size: 13px;
+    border-radius: 10px;
+    background-color: #4c4c4c;
+    color: #f7f7f7;
+}
+/*footer*/
+.footer{
+    background: #404041 url(../images/bg_footer.jpg) no-repeat center;
+    height: 274px;
+    text-align: center;
+}
+.footer_inner{
+    width: 1320px;
+    margin: auto;   
+}
+.footer_inner h1{
+    padding-top: 43px;
+}
+.footer_inner ul{
+   overflow: hidden;
+   display: inline-block;
+   clear: both;
+   padding-top: 20px;
+}
+.footer_inner li{
+    float: left;
+
+}
+
+.id, .data a, .icon{
+    color: #a5a5a5;
+}
+.data a:hover{
+    color: white;
+}
+.margin{
+    margin: 0 72px;
+}
+.icon li:nth-child(2) a{
+    margin: 0 40px;
+}
+.icon li:nth-child(3) a{
+    margin-right: 40px;
+}
