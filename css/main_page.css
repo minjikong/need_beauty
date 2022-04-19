@@ -133,11 +133,12 @@ body{
 /*sub*/
 .sub{
     position: absolute;
-    top: 170px ;
+    top: 170px;
     left: 0;
     z-index: 9;
     width: 100%;
-    background-color: #fff;
+    border: 1px #ccc solid;
+    
 }
 .sub_inner{
     width: 1080px;
