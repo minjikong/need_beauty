@@ -137,8 +137,8 @@ body{
     left: 0;
     z-index: 9;
     width: 100%;
-    border: 1px #ccc solid;
-    
+    border-top: 1px #ccc solid;
+    background-color: #fff
 }
 .sub_inner{
     width: 1080px;
