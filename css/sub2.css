@@ -1,0 +1,190 @@
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 200; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream2.woff2) format('woff2'),
+         url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream2.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 300; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream3.woff2) format('woff2'),
+         url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream3.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 400; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff2) format('woff2'),
+         url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 500; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream5.woff2) format('woff2'),
+         url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream5.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 600; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream6.woff2) format('woff2'),
+         url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream6.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 700; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream7.woff2) format('woff2'),
+         url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream7.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SDSamliphopangche_Basic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Basic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GowunBatang-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*{margin: 0; padding: 0;}
+a{text-decoration: none; color: #333;}
+ul{list-style: none;}
+body{
+    min-width: 1320px;
+    background-position: center;
+    font-size: 14px;
+    color: #333;
+    font-family: 'SCoreDream';
+}
+.title{
+    text-align: center;
+    margin-top: 120px;
+    font-size: 26px;
+    font-weight: bold;
+}
+.title2{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*header*/
+.top_logo{
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 180px;
+    height: 55px;
+}
+.top_util{
+    width: 1320px;
+    height: 23px;
+    margin: 10px auto;
+}
+.top_util ul{
+    float: right;
+}
+.top_util li{
+    float: left;
+    padding: 0 10px;
+}
+.top_util li a:hover{color: #ccc;}
+.top_util li:nth-child(1){padding-top: 2px;}
+
+/*메뉴*/
+#nav{
+    height: 37px;
+    margin-top: 30px;
+}
+.nav_inner{
+    width: 1080px;
+    height: 37px;
+    margin: auto;
+}
+.nav_inner ul li{
+    float: left;
+    font-size: 17px;
+    margin: 0 77px;
+}
+.nav_inner ul li a:hover{
+    border-bottom: solid 3px #333;
+}
+.nav_inner ul li a{
+    text-align: center;
+    display: block;
+    padding: 5px 0;
+    width: 115px;
+}
+.nav_inner ul li:nth-child(2){ 
+    border-bottom: solid 3px #333;
+}
+/*sub*/
+.sub{
+    position: absolute;
+    top: 164px;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+    border-top: 1px #ccc solid;
+    background-color: #fff
+}
+.sub_inner{
+    width: 1080px;
+    margin: auto;
+    height: 220px;
+    display: block;
+}
+.sub_inner ul{
+    width: 200px;
+    font-size: 17px;
+    text-align: center;
+}
+.sub_inner ul li{
+    padding: 10px 0;
+}
+.sub_inner ul li a{
+    color: #a5a5a5;
+    display: block;
+}
+.sub_inner ul li a:hover{
+    color: #333;
+}
+.sub_img{
+    float: right;
+    display: block;
+    margin-top: 5px;
+}
+.sub_makeup{
+    float: left;
+    margin-right: 69px;
+    margin-left: 35px;
+}
+.sub_event{
+    float: left;
+}
+.nav li:hover .sub{
+    display: block;
+}
+
+/*event*/
+#event{
+    text-align: center;
+    margin-top: 120px 0 160px 0;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 120px 0 160px 0;
+}
