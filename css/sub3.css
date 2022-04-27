@@ -1,0 +1,284 @@
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 200; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream2.woff2) format('woff2'),
+         url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream2.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 300; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream3.woff2) format('woff2'),
+         url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream3.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 400; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff2) format('woff2'),
+         url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 500; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream5.woff2) format('woff2'),
+         url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream5.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 600; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream6.woff2) format('woff2'),
+         url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream6.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 700; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream7.woff2) format('woff2'),
+         url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream7.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SDSamliphopangche_Basic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Basic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GowunBatang-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*{margin: 0; padding: 0;}
+a{text-decoration: none; color: #333;}
+ul{list-style: none;}
+body{
+    min-width: 1320px;
+    background-position: center;
+    font-size: 14px;
+    color: #333;
+    font-family: 'SCoreDream';
+}
+/*header*/
+.top_logo{
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 180px;
+    height: 55px;
+}
+.top_util{
+    width: 1320px;
+    height: 23px;
+    margin: 10px auto;
+}
+.top_util ul{
+    float: right;
+}
+.top_util li{
+    float: left;
+    padding: 0 10px;
+}
+.top_util li a:hover{color: #ccc;}
+.top_util li:nth-child(1){padding-top: 2px;}
+
+/*메뉴*/
+#nav{
+    height: 37px;
+    margin-top: 30px;
+}
+.nav_inner{
+    width: 1080px;
+    height: 37px;
+    margin: auto;
+}
+.nav_inner ul li{
+    float: left;
+    font-size: 17px;
+    margin: 0 77px;
+}
+.nav_inner ul li a:hover{
+    border-bottom: solid 3px #333;
+}
+.nav_inner ul li a{
+    text-align: center;
+    display: block;
+    padding: 5px 0;
+    width: 115px;
+}
+.nav_inner ul li:nth-child(3){ 
+    border-bottom: solid 3px #333;
+}
+/*sub*/
+.sub{
+    position: absolute;
+    top: 164px;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+    border-top: 1px #ccc solid;
+    background-color: #fff
+}
+.sub_inner{
+    width: 1080px;
+    margin: auto;
+    height: 220px;
+    display: block;
+}
+.sub_inner ul{
+    width: 200px;
+    font-size: 17px;
+    text-align: center;
+}
+.sub_inner ul li{
+    padding: 10px 0;
+}
+.sub_inner ul li a{
+    color: #a5a5a5;
+    display: block;
+}
+.sub_inner ul li a:hover{
+    color: #333;
+}
+.sub_img{
+    float: right;
+    display: block;
+    margin-top: 5px;
+}
+.sub_makeup{
+    float: left;
+    margin-right: 69px;
+    margin-left: 35px;
+}
+.sub_event{
+    float: left;
+}
+.nav li:hover .sub{
+    display: block;
+}
+
+/*니드 스토리*/
+.box{
+    width: 1320px;
+    height: 470px;
+    border: #333 solid 1px;
+    margin: 100px auto;
+    padding: 70px;
+    box-sizing: border-box;
+}
+.brand{
+    width: 507px;
+    float: left;
+    text-align: center;
+    margin-top: 12px;
+}
+.line{
+    float: left;
+    width: 1px;
+    height: 320px;
+    border-left: #333 solid 1px;
+    margin: 0 75px;
+}
+.product{
+    width: 507px;
+    float: left;
+    text-align: center;
+    margin-top: 16px;
+}
+.title1{
+    margin: 40px 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+.title2{
+    margin: 50px 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+.explain{
+    font-size: 16px;
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*history*/
+.need_history{
+    width: 930px;
+    margin: auto;
+}
+.need_history p:nth-child(1){
+    font-size: 20px;
+    border-top: #333 solid 3px;
+    border-left: #333 solid 3px;
+    width: 150px;
+    padding: 20px 0 0 20px;
+}
+.need_history p:nth-child(2){
+    font-size: 30px;
+    margin: 30px 0;
+    padding-left: 20px;
+}
+.need_history p:nth-child(3){
+    padding-left: 20px;
+    font-size: 16px;
+}
+.history{
+    width: 930px;
+    height: 997px;
+    margin: 50px auto 0 auto;
+    background: url(../images/sub3/history.jpg) no-repeat center;
+}
+
+/*footer*/
+.footer{
+    background: #404041 url(../images/bg_footer.jpg) no-repeat center;
+    height: 274px;
+    text-align: center;
+    margin-top: 135px;
+}
+.footer_inner{
+    width: 1320px;
+    margin: auto;   
+}
+.footer_inner h1{
+    padding-top: 43px;
+}
+.footer_inner ul{
+   overflow: hidden;
+   display: inline-block;
+   clear: both;
+   padding-top: 20px;
+}
+.footer_inner li{
+    float: left;
+
+}
+
+.id, .data a, .icon{
+    color: #a5a5a5;
+}
+.data a:hover{
+    color: white;
+}
+.margin{
+    margin: 0 72px;
+}
+.icon li:nth-child(2) a{
+    margin: 0 40px;
+}
+.icon li:nth-child(3) a{
+    margin-right: 40px;
+}
