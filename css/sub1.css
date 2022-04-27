@@ -312,7 +312,10 @@ i{
     text-align: right;
     margin-top: 18px;
 }
-
+#section3, #section2{
+    margin: auto;
+    width: 1320px;
+}
 /*footer*/
 .footer{
     background: #404041 url(../images/bg_footer.jpg) no-repeat center;
