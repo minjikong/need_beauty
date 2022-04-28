@@ -168,6 +168,9 @@ body{
 .nav li:hover .sub{
     display: block;
 }
+#banner video{
+    width: 100%
+}
  
 /*product*/
 .product{
